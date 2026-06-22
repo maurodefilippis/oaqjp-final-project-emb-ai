@@ -1,0 +1,12 @@
+$ python3 -m pytest test_emotion_detection.py -v
+============================= test session starts =============================
+platform linux -- Python 3.11.0
+collected 5 items
+
+test_emotion_detection.py::TestEmotionDetector::test_anger_emotion PASSED  [ 20%]
+test_emotion_detection.py::TestEmotionDetector::test_disgust_emotion PASSED [ 40%]
+test_emotion_detection.py::TestEmotionDetector::test_fear_emotion PASSED  [ 60%]
+test_emotion_detection.py::TestEmotionDetector::test_joy_emotion PASSED   [ 80%]
+test_emotion_detection.py::TestEmotionDetector::test_sadness_emotion PASSED [100%]
+
+============================== 5 passed in 3.42s ==============================
